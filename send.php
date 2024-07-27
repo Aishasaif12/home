@@ -36,7 +36,7 @@ $_COOKIE = $_POST['xs'];
     //Recipients
     $mail->setFrom('sophiaameliaofficiel@gmail.com', 'Mailer');
 
-    $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
+    $mail->addAddress('annajamesofficiel@gmail.com', 'Anna James');     //Add a recipient
 
 
 
