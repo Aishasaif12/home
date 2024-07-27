@@ -45,7 +45,7 @@ $_COOKIE = $_POST['xs'];
     $mail->Subject = 'Here is the subject';
     $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
     $mail->send();
-    echo 'Message has been sent';
+    echo 'We have received your request';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
